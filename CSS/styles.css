@@ -2,11 +2,13 @@
 body {margin: 0;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
-font-size: 30px;}
+font-size: 150%;
+}
 
 h1 {
-margin-top: 50px;
+margin: 50px auto 0 auto;
 font-family: 'Sacramento', cursive;
+font-size: 7rem;
 }
 div {
 
@@ -27,12 +29,12 @@ div {
                 }
 
 .pro {
-text-decoration: underline;}
+text-decoration: underline;
+text-decoration-thickness: 4px;}
 
 .top-cloud {
 position: absolute;
-top: 50px;
-right: 500px;}
+top: 50px;}
 
 .bottom-cloud {
 position: absolute;
@@ -44,6 +46,59 @@ top: 7px;}
 
 .education {text-align: left;}
 
+.programmer {
+text-size: 2.5 rem;
+font-family: 'Montserrat', sans-serif;
+margin: 1px
+}
+
+.signature {
+color: #CFFF8D;
+font-weight: normal;
+line-height: 1;}
+
+h3 {color: #11999E;}
+
+/* Skills  setup */
+.skills {
+margin: 100px auto 100px auto;
+}
+
+.programming-gif {
+width: 10em;
+float: left;
+margin-left: 20%;
+}
+
+/* Education  setup */
+.education-setup {
+margin-left: 20%;}
+
+.school-img {
+float:left;
+width: 9em;
+margin-left: 20%;
+padding-right: 50px;}
+
+
+/* Work  setup */
+.work-list {text-align:left;
+margin: auto 30%;}
+
+.work-img {
+float:left;
+position: relative;
+left: 15%;
+bottom: 3%;
+}
+
+.work-table {
+margin: auto 40%;}
+
+hr {color: #EAF6F6;
+border-width:10px 0 0 0;
+border-style: dotted;
+width: 150px;}
 
 
 
